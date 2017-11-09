@@ -50,9 +50,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.15.0",
-    "jquery-migrate": "1.2.1",
-    "loader.js": "^4.2.3",
-    "swagger-ui": "~2.2.10"
+    "loader.js": "^4.2.3"
   },
   "keywords": [
     "ember-addon",
@@ -62,7 +60,9 @@
   ],
   "dependencies": {
     "ember-cli-babel": "^6.3.0",
-    "ember-cli-htmlbars": "^2.0.1"
+    "ember-cli-htmlbars": "^2.0.1",
+    "jquery-migrate": "1.2.1",
+    "swagger-ui": "~2.2.10"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
