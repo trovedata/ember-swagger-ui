@@ -22,7 +22,7 @@ module.exports = {
     app.import(path.join('vendor', 'throbber.gif'), { destDir: 'images' });
     app.import(path.join('vendor', 'logo_small.png'), { destDir: 'images' });
 
-    app.import(path.join('vendor', 'reset.css'));
+    // app.import(path.join('vendor', 'reset.css'));
     app.import(path.join('vendor', 'screen.css'));
 
     app.import(path.join('vendor', 'marked.js'));
@@ -85,7 +85,7 @@ module.exports = {
 
     trees.push(new Funnel(path.join(path.dirname(require.resolve('swagger-ui')), 'css'), {
       files: [
-        'reset.css',
+        // 'reset.css',
         'screen.css'
       ]
     }));
